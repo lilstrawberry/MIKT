@@ -59,7 +59,7 @@ if __name__ == '__main__':
     avg_auc = 0
     avg_acc = 0
 
-    for now_step in range(1):
+    for now_step in range(5):
 
         best_acc = 0
         best_auc = 0
@@ -110,8 +110,8 @@ if __name__ == '__main__':
         avg_auc += best_auc
         avg_acc += best_acc
 
-    avg_auc = avg_auc / 1
-    avg_acc = avg_acc / 1
+    avg_auc = avg_auc / 5
+    avg_acc = avg_acc / 5
     print(f'*******************************************************************************')
     print(f'*******************************************************************************')
     print(f'*******************************************************************************')
