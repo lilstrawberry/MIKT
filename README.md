@@ -1,21 +1,3 @@
-Implementation of MKT
+# MIKT (WWW'24)
 
-Installation
-
-`pip install numpy`
-
-`pip install torch`
-
-`pip install pandas`
-
-`pip install sklearn`
-
-``pip install tqdm``
-
-**Train**
-
-`python main.py`
-
-**Test**
-
-`python test.py`
+This is the code for the paper "Interpretable Knowledge Tracing with Multiscale State Representation".
