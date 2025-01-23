@@ -5,6 +5,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.data as data
+from sklearn import metrics
 
 from tqdm import tqdm
 from load_data import getLoader
